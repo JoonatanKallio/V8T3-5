@@ -95,7 +95,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
             String name = bottle.getName();
             double size = bottle.getSize();
             double price = bottle.getPrice();
-            String text = "You bought " + name + " " + size + "l, and it cost " + price + "€.";
+            String text = "Receipt\nYou bought " + name + " " + size + "l, and it cost " + price + "€.";
             FileOutputStream fileOutputStream = null;
             try {
                 fileOutputStream = openFileOutput("Receipt.txt", MODE_PRIVATE);
