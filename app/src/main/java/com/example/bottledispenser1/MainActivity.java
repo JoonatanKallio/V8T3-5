@@ -134,17 +134,17 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
             intReturn = 0;
         } else if ((text1.equals("Pepsi")) && (text2.equals("0.5l"))) {
             intReturn = 1;
-        } else if (text1.equals("Pepsi Max") & text2.equals("0.3l")) {
+        } else if (text1.equals("Pepsi Max") && text2.equals("0.3l")) {
             intReturn = 2;
-        } else if (text1.equals("Pepsi Max") & text2.equals("0.5l")) {
+        } else if (text1.equals("Pepsi Max") && text2.equals("0.5l")) {
             intReturn = 3;
-        } else if (text1.equals("Coca-Cola") & text2.equals("0.3l")) {
+        } else if (text1.equals("Coca-Cola") && text2.equals("0.3l")) {
             intReturn = 4;
-        } else if (text1.equals("Coca-Cola") & text2.equals("0.5l")) {
+        } else if (text1.equals("Coca-Cola") && text2.equals("0.5l")) {
             intReturn = 5;
-        } else if (text1.equals("Coca-Cola Zero") & text2.equals("0.3l")) {
+        } else if (text1.equals("Coca-Cola Zero") && text2.equals("0.3l")) {
             intReturn = 6;
-        } else if (text1.equals("Coca-Cola Zero") & text2.equals("0.5l")) {
+        } else if (text1.equals("Coca-Cola Zero") && text2.equals("0.5l")) {
             intReturn = 7;
         }
     }
